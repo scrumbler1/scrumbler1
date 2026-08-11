@@ -1,164 +1,171 @@
-<!--
-  Erish Prajapati — GitHub Profile
-  Backend Engineer | Java + Spring Boot | Systems Thinking
--->
-
+````markdown
 <div align="center">
 
-# Erish Prajapati
-
-**Backend Engineer**
-
-Designing systems that don’t break under pressure — built for correctness, scalability, and maintainability.
-
-<br/>
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square\&logo=openjdk\&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square\&logo=springboot\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square\&logo=fastapi\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black)
+```text
+┌──────────────────────────────────────────────────────┐
+│                                                      │
+│   erish@github:~$ whoami                             │
+│                                                      │
+│   Erish Prajapati                                   │
+│   Backend Developer                                  │
+│                                                      │
+│   Java • Spring Boot • PostgreSQL • Python            │
+│                                                      │
+└──────────────────────────────────────────────────────┘
+````
 
 </div>
 
----
+```text
+erish@github:~$ cat about.txt
+```
 
-## About
+Backend developer focused on building reliable APIs, working with relational databases, authentication, transactions, and backend architecture.
 
-I build backend systems with a focus on **data integrity**, **performance under load**, and **clean architecture**.
+Currently going deeper into **Spring Boot, PostgreSQL, system design, Docker, and Linux**.
 
-Most developers can make something work. I focus on making it:
+I care about understanding **why a system fails**, not just making it work once.
 
-* **predictable under edge cases**
-* **maintainable by other engineers**
-* **scalable without rewriting everything later**
+```text
+erish@github:~$ ls stack/
+```
 
-My work is centered around:
+| Category       | Technologies                                                |
+| -------------- | ----------------------------------------------------------- |
+| Languages      | Java · Python · JavaScript · C                              |
+| Backend        | Spring Boot · FastAPI · Django                              |
+| Databases      | PostgreSQL · MySQL · SQLite                                 |
+| Security       | JWT · Spring Security · RBAC                                |
+| ORM            | JPA / Hibernate · SQLAlchemy                                |
+| Infrastructure | Docker · Linux · Git                                        |
+| Concepts       | REST APIs · Transactions · Query Optimization · Concurrency |
 
-* Designing APIs that handle real-world constraints
-* Writing database queries that don’t degrade at scale
-* Structuring codebases that don’t turn into chaos after 6 months
+```text
+erish@github:~$ ls projects/
+```
 
-**Current Focus**
+### `delivery-risk-prediction`
 
-* Spring Boot (production-grade backend design)
-* REST API design with proper layering (Controller → Service → Repository)
-* Database modeling with PostgreSQL
-* System design fundamentals (scalability, fault tolerance)
+**Pre-Dispatch Delivery Risk Scoring System**
 
----
+`Python` `FastAPI` `PostgreSQL` `scikit-learn`
 
-## Tech Stack
-
-### Languages
-
-Java · Python · JavaScript · C
-
-### Backend Frameworks
-
-Spring Boot · FastAPI · Django
-
-### Databases
-
-PostgreSQL · MySQL · SQLite
-
-### Core Concepts
-
-REST APIs · JWT Authentication · RBAC · Async Processing · ORM (JPA/Hibernate, SQLAlchemy)
-
-### Tools & Infrastructure
-
-Docker · Git · Linux · Render · Apache
-
-### Engineering Practices
-
-Clean Architecture · Layered Design · Query Optimization · CI/CD · TDD (when it matters)
+Predicts the probability of delivery failure before dispatch using factors such as address clarity, contact validity, payment method, order value, traffic, weather, and accessibility.
 
 ---
 
-## Experience
+### `spring-boot-chat`
 
-**Backend Developer Intern**
-*Smart Saauzi Solutions Pvt. Ltd.*
+**Real-Time Chat Backend**
+
+`Java` `Spring Boot` `PostgreSQL` `JWT` `WebSocket`
+
+Authentication and user-to-user messaging system with JWT-based authorization, persistent message storage, and real-time communication.
+
+---
+
+### `project-management-api`
+
+**Role-Based Project Management API**
+
+`FastAPI` `PostgreSQL`
+
+REST API with role-based access control, asynchronous request handling, relational data modeling, and query optimization.
+
+---
+
+### `library-management-system`
+
+**Library Management System**
+
+`Backend` `Database Transactions`
+
+Handles issuing, returning, holds, penalties, and audit records with an emphasis on transactional consistency.
+
+---
+
+### `e-commerce-backend`
+
+**E-Commerce Backend**
+
+`Backend` `PostgreSQL`
+
+Product, cart, order, and payment workflow with business rules and order-state management.
+
+---
+
+### `hospital-management-system`
+
+**Hospital Management System**
+
+`Backend` `SQL`
+
+Relational system for patients, doctors, appointments, medical records, and role-based access.
+
+---
+
+### `peak-times`
+
+**Data Aggregation & Visualization**
+
+`Django` `PostgreSQL`
+
+Backend for aggregating and analyzing crowd-density data with database-driven reporting.
+
+```text
+erish@github:~$ cat experience.txt
+```
+
+**Backend Developer Intern — Smart Saauzi Solutions Pvt. Ltd.**
 `Aug 2025 – Nov 2025`
 
-* Built backend services using Django and PostgreSQL
-* Implemented secure authentication using JWT
-* Designed REST APIs used in internal business workflows
-* Worked in a team using Git feature-branch workflows
-* Containerized applications using Docker for deployment
+* Developed backend services using Django and PostgreSQL
+* Built REST APIs for internal business workflows
+* Implemented JWT authentication
+* Worked with Git-based development workflows
+* Used Docker for application deployment
 
----
+```text
+erish@github:~$ cat current-focus.txt
+```
 
-## Projects
+```text
+Spring Boot
+├── Spring Security
+├── JPA / Hibernate
+└── REST API architecture
 
-> Real systems. Not tutorial clones.
+PostgreSQL
+├── Transactions
+├── Indexing
+└── Query optimization
 
-<details>
-<summary><strong>Project Management API</strong> — Role-based system with concurrency handling</summary>
+Backend Architecture
+├── Layered architecture
+├── Concurrency
+├── Error handling
+└── System design
 
-* Built using FastAPI with async request handling
-* Implemented role-based access control (admin, manager, user)
-* Optimized queries to eliminate N+1 problems
-* Designed for concurrent usage without performance degradation
+Infrastructure
+├── Linux
+├── Docker
+└── CI/CD
+```
 
-</details>
+```text
+erish@github:~$ echo $CONTACT
+```
 
-<details>
-<summary><strong>Library Management System</strong> — Consistent transaction handling</summary>
+**Email:** [irishmjn@gmail.com](mailto:irishmjn@gmail.com)
+**Location:** Nepal
 
-* Full lifecycle: issue, return, hold, penalties
-* Ensures consistency under concurrent operations
-* Tracks all actions via audit logging
-
-</details>
-
-<details>
-<summary><strong>E-Commerce Backend</strong> — Order lifecycle + system design focus</summary>
-
-* Product catalog, cart, order management
-* Simulated payment workflow
-* Designed around real-world constraints (not just CRUD)
-
-</details>
-
-<details>
-<summary><strong>Hospital Management System</strong> — Strict relational integrity</summary>
-
-* Strong database relationships (patients, doctors, records)
-* Role-based access reflecting real hospital roles
-* Focused on data correctness over shortcuts
-
-</details>
-
-<details>
-<summary><strong>Peak Times</strong> — Data aggregation & visualization backend</summary>
-
-* Django + PostgreSQL
-* Aggregates and visualizes crowd density patterns
-* Optimized queries for reporting performance
-
-</details>
-
----
-
-## What I’m Building Next
-
-* Spring Boot production-grade APIs
-* Microservice-ready backend architecture
-* Better system design (caching, queues, scaling patterns)
-
----
-
-## Contact
-
-* Email: [irishmjn@gmail.com](mailto:irishmjn@gmail.com)
-* Location: Nepal
-
----
+```text
+erish@github:~$ exit
+```
 
 <div align="center">
-<sub>© 2026–Present Erish Prajapati</sub>
+
+`Building. Breaking. Understanding. Rebuilding.`
+
 </div>
+```
